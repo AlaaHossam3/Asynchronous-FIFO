@@ -1,7 +1,7 @@
 # Asynchronous FIFO Verification
 
 ## Project Overview
-This repository contains the RTL implementation and a robust SystemVerilog verification environment for a **Synchronous FIFO (First-In-First-Out)** memory buffer. The design is parameterized and includes a suite of status flags to handle flow control. The verification environment utilizes a class-based layered testbench approach, including randomization, functional coverage, and self-checking mechanisms.
+This repository contains the RTL implementation and a robust SystemVerilog verification environment for a **Asynchronous FIFO (First-In-First-Out)** memory buffer. The design is parameterized and includes a suite of status flags to handle flow control. The verification environment utilizes a class-based layered testbench approach, including randomization, functional coverage, and self-checking mechanisms.
 
 
 ## Design Specifications (RTL)
