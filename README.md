@@ -5,7 +5,7 @@ This repository contains the RTL implementation and a robust SystemVerilog verif
 
 
 ## Design Specifications (RTL)
-The Design Under Test (DUT) is a synchronous FIFO with the following characteristics:
+The Design Under Test (DUT) is an asynchronous FIFO with the following characteristics:
 * **Parameters:** Configurable Data Width (default: 16) and FIFO Depth (default: 8).
 * **Reset:** Active low asynchronous reset.
 * **Status Flags:**
